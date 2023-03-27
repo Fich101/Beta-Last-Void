@@ -1,0 +1,19 @@
+[gd_resource type="SpatialMaterial" load_steps=2 format=2]
+
+[ext_resource path="res://Textures/Concrete/PaintedPlaster008_4K_AmbientOcclusion.jpg" type="Texture" id=3]
+
+[resource]
+flags_transparent = true
+params_blend_mode = 3
+params_cull_mode = 2
+metallic = 0.48
+metallic_specular = 0.0
+roughness = 0.45
+ao_enabled = true
+ao_light_affect = 0.0
+ao_texture = ExtResource( 3 )
+ao_on_uv2 = false
+ao_texture_channel = 0
+refraction_enabled = true
+refraction_scale = 0.05
+refraction_texture_channel = 0

@@ -1,0 +1,5 @@
+005 - 100 Idle
+105 - 145 walk
+150 - 180 run
+185 - 285 alert
+290 - 390 converstaion

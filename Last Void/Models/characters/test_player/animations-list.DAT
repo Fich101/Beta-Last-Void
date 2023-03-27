@@ -1,0 +1,2 @@
+#(#(5, 100), #(105, 145), #(150, 180), #(185, 285), #(290, 390))
+#("Idle 1 (no gun)", "Walk (no gun)", "Run (no gun)", "Ready with detonator ", "Chat idle (no gun gesturing)")

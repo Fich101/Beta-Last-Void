@@ -1,0 +1,38 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Models/objects/flashlight.glb" type="PackedScene" id=1]
+
+[sub_resource type="SpatialMaterial" id=1]
+flags_disable_ambient_light = true
+albedo_color = Color( 0.133333, 0.12549, 0.12549, 1 )
+metallic = 0.36
+roughness = 0.61
+emission_enabled = true
+emission = Color( 0.298039, 0.298039, 0.298039, 1 )
+emission_energy = 0.1
+emission_operator = 0
+emission_on_uv2 = false
+
+[sub_resource type="SpatialMaterial" id=2]
+flags_disable_ambient_light = true
+albedo_color = Color( 1, 0, 0, 1 )
+metallic = 0.24
+roughness = 0.0
+emission_enabled = true
+emission = Color( 1, 0, 0, 1 )
+emission_energy = 0.1
+emission_operator = 0
+emission_on_uv2 = false
+
+[node name="flashlight" instance=ExtResource( 1 )]
+transform = Transform( -0.1, 0, -8.74228e-09, 0, 0.1, 0, 8.74228e-09, 0, -0.1, 0, 0, 0 )
+
+[node name="Cylinder" parent="." index="0"]
+transform = Transform( 0.999012, 0.0444444, 3.72529e-09, 3.72529e-09, -1.19209e-07, -1, -0.0444444, 0.999012, -1.19209e-07, 0, 0, 0 )
+layers = 2
+material/0 = SubResource( 1 )
+
+[node name="Cylinder001" parent="." index="1"]
+transform = Transform( 0.234309, 0, 3.55271e-15, 0, 0.234309, 0, -3.55271e-15, 0, 0.234309, -0.0103202, 0.868716, -0.00194699 )
+layers = 2
+material/0 = SubResource( 2 )

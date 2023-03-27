@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/димасик.mp3-37a9788f8e9d95d1e0adfda562bd0485.mp3str"
+
+[deps]
+
+source_file="res://Sounds/димасик.mp3"
+dest_files=[ "res://.import/димасик.mp3-37a9788f8e9d95d1e0adfda562bd0485.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

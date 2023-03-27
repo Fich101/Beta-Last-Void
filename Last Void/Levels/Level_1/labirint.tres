@@ -1,0 +1,26 @@
+[gd_resource type="SpatialMaterial" load_steps=5 format=2]
+
+[ext_resource path="res://Textures/Travertino_Style_E179/Travertino_Style_E179-displacement.jpg" type="Texture" id=1]
+[ext_resource path="res://Textures/Travertino_Style_E179/Travertino_Style_E179-specular.jpg" type="Texture" id=2]
+[ext_resource path="res://Textures/Travertino_Style_E179/Travertino_Style_E179-normal.jpg" type="Texture" id=3]
+[ext_resource path="res://Textures/Travertino_Style_E179/Travertino_Style_E179-diffuse.jpg" type="Texture" id=4]
+
+[resource]
+albedo_texture = ExtResource( 4 )
+roughness = 0.23
+roughness_texture = ExtResource( 2 )
+normal_enabled = true
+normal_scale = 0.0
+normal_texture = ExtResource( 3 )
+ao_enabled = true
+ao_light_affect = 0.37
+ao_texture = ExtResource( 1 )
+ao_on_uv2 = false
+ao_texture_channel = 0
+depth_enabled = true
+depth_scale = 0.018
+depth_deep_parallax = false
+depth_flip_tangent = false
+depth_flip_binormal = false
+depth_texture = ExtResource( 2 )
+uv1_scale = Vector3( 2, -30.632, 0 )

@@ -1,0 +1,33 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Models/characters/true_player/Anims/idle.tres" type="Animation" id=1]
+[ext_resource path="res://Models/characters/true_player/Anims/idle.gltf" type="PackedScene" id=2]
+[ext_resource path="res://Models/characters/true_player/Anims/walk.tres" type="Animation" id=3]
+[ext_resource path="res://Models/characters/true_player/COLLAR_FRONT_2130.material" type="Material" id=4]
+[ext_resource path="res://Models/characters/true_player/Material_004.material" type="Material" id=5]
+[ext_resource path="res://Models/characters/true_player/Shoe_008.material" type="Material" id=6]
+[ext_resource path="res://Models/characters/true_player/Shoe_011.material" type="Material" id=7]
+[ext_resource path="res://Models/characters/true_player/Матеріал_001.material" type="Material" id=8]
+
+[node name="idle" instance=ExtResource( 2 )]
+transform = Transform( -40.1552, 0, -3.51048e-06, 0, 40.1552, 0, 3.51048e-06, 0, -40.1552, 0, 0, 0 )
+
+[node name="Human_Character_Base_Mesh001" parent="Armature/Skeleton" index="0"]
+material/0 = ExtResource( 4 )
+
+[node name="Pants_Character_Base_Mesh004" parent="Armature/Skeleton" index="1"]
+material/0 = ExtResource( 5 )
+
+[node name="Shoe_L_ShoeLP006" parent="Armature/Skeleton" index="2"]
+material/0 = ExtResource( 6 )
+
+[node name="Shoe_R_ShoeLP002" parent="Armature/Skeleton" index="3"]
+material/0 = ExtResource( 7 )
+
+[node name="Sweatshirt_A-Pose_ThinWalled003" parent="Armature/Skeleton" index="4"]
+transform = Transform( 1, -2.13163e-14, 0, 0, 1, 2.84217e-14, -3.38813e-21, -2.84217e-14, 1, 0, 0, 0 )
+material/0 = ExtResource( 8 )
+
+[node name="AnimationPlayer" parent="." index="1"]
+anims/idle = ExtResource( 1 )
+anims/walk = ExtResource( 3 )

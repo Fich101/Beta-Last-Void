@@ -1,0 +1,14 @@
+[gd_resource type="Shader" format=2]
+
+[resource]
+code = "shader_type canvas_item;
+
+uniform float scale : hint_range(0.1, 10) = 2.0;
+
+void fragment()
+{
+	vec4 pixelColor = texture(TEXTURE, UV);
+	float brightness = (pixelColor.r + pixelColor.g + pixelColor.b) / 3.0;
+	vec4 greyScale = vec4(brightness, brightness, brightness, 0.2);
+	COLOR = greyScale;
+}"
