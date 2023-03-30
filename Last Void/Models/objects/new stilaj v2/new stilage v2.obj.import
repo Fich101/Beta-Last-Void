@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/new stilage v2.obj-8f6b8c3fd4902fe603813480f697fec6.mesh"
+
+[deps]
+
+files=[ "res://.import/new stilage v2.obj-8f6b8c3fd4902fe603813480f697fec6.mesh" ]
+
+source_file="res://Models/objects/new stilaj v2/new stilage v2.obj"
+dest_files=[ "res://.import/new stilage v2.obj-8f6b8c3fd4902fe603813480f697fec6.mesh", "res://.import/new stilage v2.obj-8f6b8c3fd4902fe603813480f697fec6.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

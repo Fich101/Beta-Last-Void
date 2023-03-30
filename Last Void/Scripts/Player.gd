@@ -23,7 +23,7 @@ var arms
 var arms_visible = null
 export var HP = 100
 var flash_charge = 100
-var stamina = 400
+var stamina = 4000
 var pause
 
 func action():
